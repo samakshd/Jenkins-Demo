@@ -2,9 +2,9 @@
 # Test file for basic arithmetic operations on two numbers
 
 import unittest
-from program import mean
+from main import *
 
-class TestMean(unittest.TestCase):
+class TestOperations(unittest.TestCase):
     def test_addition(self):
         """
         Test case 1 for checking addition operation on given two numbers
