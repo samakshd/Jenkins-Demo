@@ -4,11 +4,11 @@ def addition(nums):
 def subtraction(nums):
   return nums[0]-nums[1]
 
-def multiplication(a,b):
+def multiplication(nums):
   return nums[0]*nums[1]
 
-def quotient(a,b):
+def quotient(nums):
   return nums[0]/nums[1]
     
-def remainder(a,b):
+def remainder(nums):
   return nums[0]%nums[1]
