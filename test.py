@@ -35,7 +35,7 @@ class TestOperations(unittest.TestCase):
         """
         data = [5,6]
         result = quotient(data)
-        self.assertEqual(result, 1)
+        self.assertEqual(result, 0)
         
     def test_remainder(self):
         """
@@ -43,7 +43,7 @@ class TestOperations(unittest.TestCase):
         """
         data = [5,6]
         result = remainder(data)
-        self.assertEqual(result, 1)
+        self.assertEqual(result, 5)
 
     
 if __name__ == '__main__':
