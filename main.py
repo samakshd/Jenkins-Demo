@@ -8,7 +8,7 @@ def multiplication(a,b):
   return a*b
 
 def quotient(a,b):
-  return a/b
+  return int(a/b)
     
 def remainder(a,b):
   return a%b
