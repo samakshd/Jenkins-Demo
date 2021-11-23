@@ -1,14 +1,14 @@
-def addition(a,b):
-  return a+b
+def addition(nums):
+  return nums[0]+nums[1]
 
-def subtraction(a,b):
-  return a-b
+def subtraction(nums):
+  return nums[0]-nums[1]
 
 def multiplication(a,b):
-  return a*b
+  return nums[0]*nums[1]
 
 def quotient(a,b):
-  return a/b
+  return nums[0]/nums[1]
     
 def remainder(a,b):
-  return a%b
+  return nums[0]%nums[1]
