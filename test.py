@@ -19,7 +19,7 @@ class TestOperations(unittest.TestCase):
         """
         data = [5,6]
         result = subtraction(data)
-        self.assertEqual(result, -1)
+        self.assertEqual(result, 1)
     
     def test_multiplication(self):
         """
